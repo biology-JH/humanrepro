@@ -63,3 +63,7 @@ main .syllabus-point b,main .switcher-tab,main .diagram-tag,main .support-tab,ma
 @media (max-width:760px){.hero h1{font-size:clamp(58px,14.5vw,88px)!important;line-height:.88}.hero h1 em{font-size:.95em!important}.exchange .section-intro>p,.gametes .section-intro>p,.development .section-intro>p{font-size:22px!important}#objectives-title{font-size:clamp(38px,10vw,58px)!important}.magnify-icon{font-size:1.85em!important}}
 #gametes-title{white-space:nowrap}.workbook .section-intro>p{font-family:"DM Sans",sans-serif!important;font-size:clamp(24px,2vw,30px)!important;line-height:1.3;max-width:740px;font-style:normal!important}
 @media (max-width:760px){#gametes-title{white-space:normal}.workbook .section-intro>p{font-size:22px!important}}
+
+/* Keep the anatomy and plenary title phrases on one line on wider screens. */
+.systems #systems-title,.plenary-top #plenary-title{font-size:clamp(38px,4.5vw,68px)!important;white-space:nowrap}
+@media (max-width:760px){.systems #systems-title,.plenary-top #plenary-title{font-size:clamp(36px,9vw,58px)!important;white-space:normal}}
